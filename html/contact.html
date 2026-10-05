@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/kent-main.css">
+    <link rel="stylesheet" href="../styles/kent-contact.css">
+    <link rel="stylesheet" href="../styles/typography.css">
+</head>
+<body>
+        <header class="header">
+        <img src="../images/kent-header.jpg" alt="Kent logo" height="auto" width="100%">
+    <nav class="menu">
+    <div class="expand__button__trigger">
+        <img src="../images/Arrow-Down-1--Streamline-Ultimate.png" alt="Expand arrow" height="50px" width="auto">
+    </div>
+    <ul class="nav">
+        <li class="home__nav"><a href="../kent.html">Home</a></li>
+        <li class="about__nav"><a href="../html/about.html">About</a></li>
+        <li class="merch__nav"><a href="../html/merch.html">Merch</a></li>
+        <li class="tour__nav"><a href="../html/tour.html">Tour</a></li>
+        <li class="discography__nav"><a href="../html/discography.html">Discography</a></li>
+        <li class="contact__nav"><a href="../html/contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    </header>
+
+    <main class="main">
+        <form class="information__form" action="mailto: melina.gohari@edu.futuregames.se" method="POST" enctype="text/plain">
+    <fieldset>
+        <legend>Personal information</legend>
+        <div class="names">
+        <label for="first__name">First name</label> 
+        <input required type="text" id="first__name" name="first__name" placeholder="Enter your first name here...">
+        <label for="last__name">Last name <i>(optional)</i></label> 
+        <input type="text" id="last__name" name="last__name" placeholder="Enter your last name here...">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Type message</legend>
+        <label for="content">Tell me whats on your mind</label>
+        <textarea id="content" name="content" placeholder="Reason for writing"></textarea>
+    </fieldset>
+        <input type="radio" name="reason" id="feedback" value="feedback"><label for="feedback" class="radio__label">Feedback</label>
+        <input type="radio" name="reason" id="bug report" value="bug report"><label for="bug report" class="radio__label">Bug Report</label>
+        <input type="radio" name="reason" id="other" value="other"><label for="other" class="radio__label">Other</label>
+    <button class="button">Send email</button>
+        </form>
+    </main>
+    <footer>
+        <h2>&copy Melina 2026 </h2>
+       <a class="home__button" href="../kent.html">Go back home</a>
+        </div>
+    </footer>
+</body>
+</html>

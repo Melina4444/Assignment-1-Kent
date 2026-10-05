@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+.nav .contact__nav {
+  /*glow*/
+  border-color: #0b090a #161a1d #b10104 #161a1d;
+  -webkit-box-shadow: 0px 0px 39px 1px rgba(255, 46, 46, 0.9);
+  -moz-box-shadow: 0px 0px 39px 1px rgba(255, 46, 46, 0.9);
+  box-shadow: 0px 0px 39px 1px rgba(255, 46, 46, 0.9);
+}
+
+.main {
+  align-items: center;
+  background-image: url(../images/red-roses_.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #0b090a;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  padding: 16px;
+}
+
+label {
+  display: block;
+}
+
+.input {
+  padding: 12px;
+  border-radius: 5px;
+  height: auto;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+fieldset {
+  padding: 16px;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  height: 100px;
+  padding: 8px;
+  font-family: "ITC_Avant_Garde";
+  font-size: 1.2rem;
+}
+
+.information__form {
+  border: 3px solid #5b0008;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  font-family: "ITC_Avant_Garde";
+}
+
+.names {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.radio__label {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+input[type="radio"] {
+  margin-right: 4px;
+  width: auto;
+}
+
+button {
+  margin: 12px;
+  font-size: 1.2rem;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: #5b0008;
+
+  &:hover {
+    background-color: #b10104;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    margin: 0;
+    margin-top: 12px;
+    padding: 16px;
+  }
+
+  .radio__label {
+    font-size: 1rem;
+    width: auto;
+  }
+
+  .names {
+    display: block;
+    padding: 12px;
+    font-size: 1rem;
+  }
+}
