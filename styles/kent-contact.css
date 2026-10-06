@@ -6,6 +6,10 @@ html {
   height: 100vh;
 }
 
+.header {
+  background-color: #eaeaea;
+}
+
 .nav .contact__nav {
   /*glow*/
   border-color: #0b090a #161a1d #b10104 #161a1d;

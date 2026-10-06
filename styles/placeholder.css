@@ -19,11 +19,11 @@ body {
 }
 
 .header {
-    background-color: #ededed;
+  background-color: #eaeaea;
 }
 
 .page__title {
-    background-color: #ededed;
+  font-family: "ITC_Avant_Garde";
 }
 
 .main__container {

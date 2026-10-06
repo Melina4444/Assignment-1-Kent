@@ -30,6 +30,9 @@ html {
     margin: 0;
     font-family: 'ITC_Avant_Garde';
 }
+.page__title {
+    color:#fff
+}
 
 .nav .tour__nav {  /*glow*/
   border-color: #0b090a #161a1d #b10104 #161a1d;
