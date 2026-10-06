@@ -18,6 +18,10 @@ footer{
     font-family: 'ITC_Avant_Garde';
 }
 
+.expand__button__trigger {
+    display: none;
+}
+
 body {
     display: flex;
     flex-direction: column;

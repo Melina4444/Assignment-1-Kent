@@ -7,10 +7,10 @@ header{
 }
 
 .nav .merch__nav {  /*glow*/
-  border-color: #0b090a #161a1d #b10104 #161a1d;
-  -webkit-box-shadow:0px 0px 39px 1px rgba(255,46,46,0.9);
--moz-box-shadow: 0px 0px 39px 1px rgba(255,46,46,0.9);
-box-shadow: 0px 0px 39px 1px rgba(255,46,46,0.9);
+    border-color: #0b090a #161a1d #b10104 #161a1d;
+    -webkit-box-shadow:0px 0px 39px 1px rgba(255,46,46,0.9);
+    -moz-box-shadow: 0px 0px 39px 1px rgba(255,46,46,0.9);
+    box-shadow: 0px 0px 39px 1px rgba(255,46,46,0.9);
 
 }
 
@@ -32,25 +32,25 @@ box-shadow: 0px 0px 39px 1px rgba(255,46,46,0.9);
 }
 
 .items{
-background-color: gray;
-display: grid;
-grid-template-columns: repeat(3, minmax(0, 1fr));
-grid-template-rows: minmax(250px, auto);
-gap: 16px;
-min-width: 0;
-overflow: hidden;
-width: 100%;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: minmax(250px, auto);
+    gap: 16px;
+    min-width: 0;
+    overflow: hidden;
+    width: 100%;
 }
 
 .content{
-transition: transform .2s ease;
+    transition: transform .2s ease;
 &:hover {
-transform: scale(1.05);
+    transform: scale(1.05);
 }
 }
 
 .sweatshirt {
-padding-left: 24px;
+    padding-left: 24px;
 }
 
 .tshirt__slim__white {
@@ -92,7 +92,6 @@ padding-left: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .tooltiptext {
@@ -104,7 +103,6 @@ padding-left: 24px;
   padding: 2px 0;
   border-radius: 6px;
 }
-
 
 .tooltip:hover .tooltiptext {
   visibility: visible;

@@ -16,14 +16,11 @@ body {
   -webkit-box-shadow:0px 0px 39px 1px rgba(255,46,46,0.9);
 -moz-box-shadow: 0px 0px 39px 1px rgba(255,46,46,0.9);
 box-shadow: 0px 0px 39px 1px rgba(255,46,46,0.9);
-
-
 }
 
 .menu{
     background-color: black;
     padding: 16px;
-
 
     &:hover  .mobile__menu__target {
         display: block;
@@ -32,7 +29,6 @@ box-shadow: 0px 0px 39px 1px rgba(255,46,46,0.9);
 
 .mobile__menu__trigger{
     height: 50px;
-
 }
 
 .mobile__menu__target {
@@ -54,7 +50,6 @@ box-shadow: 0px 0px 39px 1px rgba(255,46,46,0.9);
         color: #000;
         background-color: #fff;
         border-color: #000;
-
     }
 }
 
